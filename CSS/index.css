@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 h1 {
@@ -31,19 +32,19 @@ h3 {
     font-family: Verdana, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 .mainheader {
     display: grid;
-    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     height: 50vh;
 }
 .om {
     margin: 100px;
 }
 .project{
-    margin: 30px;
+    margin: 100px;
 
 }
 
@@ -51,7 +52,7 @@ h3 {
 .mainnav {
     display: flex;
     flex-grow: 1;
-    height: 70px;
+    height: 100px;
     align-items: center;
     background-color: rgb(255, 255, 255);
     box-shadow: -1px 4px 20px 0px rgba(44, 44, 44, 0.4);
@@ -70,17 +71,13 @@ h3 {
 }
 
 .menuitem:hover {
-    color: #cbaaff;
+    color: #5f5f5f;
 }
 
 .menuitem:focus {
-    color: #cbaaff;
+    color: #5f5f5f;
 }
-.tittel{
-text-align: center;
-padding-top: 10px ;
 
-}
 .galleri {
     display: grid;
     flex-flow: row wrap;
@@ -137,10 +134,10 @@ div.gallery {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     background-color:rgb(255, 255, 255);
-    padding-top: 5vh;
+
  }
  .testimonial{
-     padding: 100px;
+     padding: 50px;
      background-color:rgb(189, 189, 189);
  }
 
@@ -149,10 +146,10 @@ div.gallery {
     grid-template-columns: 1fr 1.5fr 1fr;
     height: 20vh;
     padding-top: 5vh;
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
  }
  .prislisten{
-     padding: 100px;
+     padding: 50px;
      background-color:rgb(189, 189, 189);
 
  }
