@@ -35,17 +35,24 @@ h3 {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
 .mainheader {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 50vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .mainheader {
+        grid-template-columns: 1fr;
+    }
+}
+
 .om {
     margin: 100px;
 }
 .project{
     margin: 100px;
-
 }
 
 
@@ -79,11 +86,12 @@ h3 {
 }
 
 .galleri {
-    display: grid;
-    flex-flow: row wrap;
+    display: grid;    
     grid-template-columns: 1fr 1fr 1fr;
-
 }
+
+@media screen only (width: 600px)
+
 div.gallery {
     float: left;
     object-fit: cover;
