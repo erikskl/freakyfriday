@@ -39,7 +39,6 @@ h3 {
 .mainheader {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 50vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -90,7 +89,11 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media screen only (width: 600px)
+@media only screen and (max-width: 600px){
+    .galleri {
+        grid-template-columns: 1fr;
+    }
+}
 
 div.gallery {
     float: left;
@@ -98,11 +101,11 @@ div.gallery {
 
   }
   
+  
   div.gallery img {
-    width:  100%;
-    height: 600px;
+   width:  100%;
+    height: 100%;
     object-fit: cover;
-
   }
 
   .overlay {
@@ -142,34 +145,46 @@ div.gallery {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     background-color:rgb(255, 255, 255);
+    
 
  }
  .testimonial{
      padding: 50px;
-     background-color:rgb(189, 189, 189);
+     background-color:rgb(221, 232, 233);
  }
 
  .prisliste{
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
-    height: 20vh;
-    padding-top: 5vh;
-    margin-bottom: 20vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
  }
  .prislisten{
      padding: 50px;
-     background-color:rgb(189, 189, 189);
+     background-color:rgb(221, 232, 233);
 
  }
  .footer{
     display: grid;
     grid-template-columns: 0.5fr 3fr; 
-    height: 20vh;
-     background-color:rgb(189, 189, 189);
+    height: 150px;
+     background-color:rgb(221, 232, 233);
 
  }
  .footertekst{
-     padding-top: 5vh;
+     padding-top: 50px;
      padding-left: 100px; 
+
+}
+
+.testcontainer{
+    display:flex;
+    min-height: 1000px;
+
+}
+
+.priser {
+    display: flex;
 
 }
