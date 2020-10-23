@@ -39,19 +39,25 @@ h3 {
 .mainheader {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 80%;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .mainheader {
         grid-template-columns: 1fr;
     }
 }
 
 .om {
-    margin: 100px;
+    margin: 50px;
+
+
 }
 .project{
-    margin: 100px;
+    margin: 50px;
 }
 
 
@@ -145,13 +151,22 @@ div.gallery {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     background-color:rgb(255, 255, 255);
-    
+    margin-bottom: 20px;
 
+ }
+
+ @media only screen and (max-width: 900px){
+
+    .testimonials{
+
+     grid-template-columns: 1fr 4fr 1fr;
+    }
  }
  .testimonial{
      padding: 50px;
      background-color:rgb(221, 232, 233);
  }
+
 
  .prisliste{
     display: grid;
@@ -177,14 +192,11 @@ div.gallery {
      padding-left: 100px; 
 
 }
-
+/*
 .testcontainer{
     display:flex;
-    min-height: 1000px;
+    min-height: ;
 
 }
 
-.priser {
-    display: flex;
 
-}
